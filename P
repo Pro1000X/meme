@@ -1,0 +1,14 @@
+meme_dict = {
+            "CRINGE": "Sesuatu yang sangat aneh atau memalukan",
+            "LOL": "Tanggapan umum terhadap sesuatu yang lucu",
+            "WKWKWK": "orang lagi ketawa",
+            "STONKS": "kesalahan ejaan stock yang disengaja, seperti yang diperdagangkan di pasar stock.",
+            "DOGE": "Doge mengacu pada meme internet yang memasangkan gambar anjing Shiba Inu, terutama yang bernama Kabosu, dengan keterangan yang menggambarkan monolog internal anjing tersebut.",
+            }
+
+word = input("Ketik kata yang tidak Kamu mengerti (gunakan huruf kapital semua!): ")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("kata tidak di temukan")
